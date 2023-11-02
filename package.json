@@ -1,0 +1,22 @@
+{
+  "name": "solace-notes-server",
+  "version": "1.0.0",
+  "description": "Server for solace-notes-app",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon -w index.js -w app.js -w routes -w mongodb",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
